@@ -8,6 +8,7 @@ public class more : MonoBehaviour
     void Start()
     {
         Debug.Log("1");
+        Debug.Log("2");
     }
 
     // Update is called once per frame
