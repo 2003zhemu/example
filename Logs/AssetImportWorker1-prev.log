@@ -15,7 +15,7 @@ D:/example/example
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51407
+52830
 Successfully changed project path to: D:/example/example
 D:/example/example
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,13 @@ D:/example/example
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16164] Host "[IP] 192.168.31.116 [Port] 0 [Flags] 2 [Guid] 746422713 [EditorId] 746422713 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-Q4PMCHSC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20492] Host "[IP] 192.168.31.116 [Port] 0 [Flags] 2 [Guid] 2977827163 [EditorId] 2977827163 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-Q4PMCHSC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16164] Host "[IP] 192.168.31.116 [Port] 0 [Flags] 2 [Guid] 746422713 [EditorId] 746422713 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-Q4PMCHSC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20492] Host "[IP] 192.168.31.116 [Port] 0 [Flags] 2 [Guid] 2977827163 [EditorId] 2977827163 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-Q4PMCHSC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 104.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1c1 (f004340bb748)
 [Subsystems] Discovering subsystems at path D:/2021.3.30f1c1/Editor/Data/Resources/UnitySubsystems
@@ -69,90 +69,87 @@ Initialize mono
 Mono path[0] = 'D:/2021.3.30f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/2021.3.30f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2021.3.30f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2021.3.30f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005348 seconds.
+Registered in 0.005743 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 161.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.662 seconds
+- Completed reload, in  0.944 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1664ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (945ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1309ms)
-			LoadAssemblies (164ms)
+		EndReloadAssembly (643ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (976ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (162ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (454ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.032494 seconds.
+Registered in 0.016034 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  6.901 seconds
+- Completed reload, in  1.078 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6903ms)
-		BeginReloadAssembly (272ms)
+	ReloadAssembly (1079ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (6297ms)
-			LoadAssemblies (191ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (3910ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (240ms)
-			SetupLoadedEditorAssemblies (1776ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (291ms)
-				ProcessInitializeOnLoadAttributes (1240ms)
-				ProcessInitializeOnLoadMethodAttributes (140ms)
-				AfterProcessingInitializeOnLoad (76ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.64 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (46.4 KB). Loaded Objects now: 3517.
-Memory consumption went from 111.9 MB to 111.8 MB.
-Total: 340.975600 ms (FindLiveObjects: 0.447100 ms CreateObjectMapping: 0.552800 ms MarkObjects: 339.826400 ms  DeleteObjects: 0.147600 ms)
+Unloading 17 unused Assets / (46.3 KB). Loaded Objects now: 3511.
+Memory consumption went from 110.3 MB to 110.2 MB.
+Total: 3.629400 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.203800 ms MarkObjects: 3.074200 ms  DeleteObjects: 0.092900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,79 +164,532 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 924.455444 seconds.
-  path: Assets/脚本
-  artifactKey: Guid(6b1698e9551fd1d4caf39a1c8c5b60e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3366.668570 seconds.
+  path: Assets/素材/Default size/tankBody_darkLarge_outline.png
+  artifactKey: Guid(d1b00d8fc01e97f4ab241c394cc53906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/脚本 using Guid(6b1698e9551fd1d4caf39a1c8c5b60e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a54dd2c0cf6ecc737e6c0d4adff99b2') in 0.574955 seconds 
+Start importing Assets/素材/Default size/tankBody_darkLarge_outline.png using Guid(d1b00d8fc01e97f4ab241c394cc53906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c509a315513347b12663904bb36720c') in 0.131649 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/素材/Default size/tankGreen_barrel1_outline.png
+  artifactKey: Guid(b825343e1a7df30419d845daa7ba5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankGreen_barrel1_outline.png using Guid(b825343e1a7df30419d845daa7ba5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891b23257b688558badc8cc867747fa5') in 0.027710 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/素材/Default size/bulletRed3.png
+  artifactKey: Guid(977e51a06abcb5b4f8cf3638b8f8fa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletRed3.png using Guid(977e51a06abcb5b4f8cf3638b8f8fa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1cd97181a03e796a9d8a0ffe36e014') in 0.024131 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/素材/Default size/specialBarrel4_outline.png
+  artifactKey: Guid(a83018a57e9d8ac459ad212ebbcd84b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/specialBarrel4_outline.png using Guid(a83018a57e9d8ac459ad212ebbcd84b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924df4ecb2d556172997d8529edc57e9') in 0.022964 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/素材/Default size/bulletBlue1.png
+  artifactKey: Guid(dd0ac843dccab6a4c9bf3b627eb798df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletBlue1.png using Guid(dd0ac843dccab6a4c9bf3b627eb798df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb0ddc0d1a2f3dc55faf4c60668959d') in 0.022465 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/素材/Default size/tank_huge.png
+  artifactKey: Guid(c15b26a3f942b7743b6c4f6c8bdf7289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tank_huge.png using Guid(c15b26a3f942b7743b6c4f6c8bdf7289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd1b79461d453d1d2a7e382bc49b204') in 0.021330 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/素材/Default size/tankRed_barrel1.png
+  artifactKey: Guid(13c89904d3adf2443b76c0f99b89c95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankRed_barrel1.png using Guid(13c89904d3adf2443b76c0f99b89c95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af62f404e2741e7760972b5233e576f') in 0.021594 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/素材/Default size/bulletDark2_outline.png
+  artifactKey: Guid(2c0215c0e57ac904eb13404154200af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletDark2_outline.png using Guid(2c0215c0e57ac904eb13404154200af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5412aff504060bd255ae8fab94db897d') in 0.031440 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/素材/Default size/crateWood.png
+  artifactKey: Guid(f2886b0d4b4f99643a4d61aa348091d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/crateWood.png using Guid(f2886b0d4b4f99643a4d61aa348091d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8562673e745c7e5f2cdd1e6619c694c') in 0.025923 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/素材/Default size/tankBlue_barrel2.png
+  artifactKey: Guid(32d4045403ee5ae45b2e442d4eb50629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBlue_barrel2.png using Guid(32d4045403ee5ae45b2e442d4eb50629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5338e6c9d81263415d444123c74fc9') in 0.026029 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/素材/Default size/specialBarrel7_outline.png
+  artifactKey: Guid(b8a5c6be7b185b249a4b27b10a5e0de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/specialBarrel7_outline.png using Guid(b8a5c6be7b185b249a4b27b10a5e0de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee1d9baefff398466040ea26c057b75') in 0.020665 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/素材/Default size/bulletSand1_outline.png
+  artifactKey: Guid(2c9916c33626f25468ee92264dccef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletSand1_outline.png using Guid(2c9916c33626f25468ee92264dccef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e6fac032134eb493c753d085c1571f') in 0.024129 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/素材/Default size/tank_blue.png
+  artifactKey: Guid(4aca699aac714404a853e13bf4f41f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tank_blue.png using Guid(4aca699aac714404a853e13bf4f41f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfff2f69b3b2f64978bf329a38e61e0') in 0.021145 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/素材/Default size/tankBody_darkLarge.png
+  artifactKey: Guid(591db9215a222d6499bb762613a82f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBody_darkLarge.png using Guid(591db9215a222d6499bb762613a82f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545072e096b8b714ab0789924baacf2e') in 0.019645 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/素材/Default size/shotThin.png
+  artifactKey: Guid(c445d8b7a2ffe7448b12adbe79f4ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/shotThin.png using Guid(c445d8b7a2ffe7448b12adbe79f4ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3e684124ce261af056c035fe3bcd39') in 0.020388 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/素材/Default size/tankBody_dark_outline.png
+  artifactKey: Guid(043c7fc4adeec1249951c62c18fcacec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBody_dark_outline.png using Guid(043c7fc4adeec1249951c62c18fcacec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d99799a17e0d35e2bd46da0e0c7efb6') in 0.022734 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/素材/Default size/crateMetal_side.png
+  artifactKey: Guid(420ec36992e8bd74186b805a62b498bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/crateMetal_side.png using Guid(420ec36992e8bd74186b805a62b498bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478fbff069f9cfa6296e627e9821c520') in 0.020875 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/素材/Default size/tankGreen_barrel3_outline.png
+  artifactKey: Guid(eb0091b8389e1914184eb269d6cea169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankGreen_barrel3_outline.png using Guid(eb0091b8389e1914184eb269d6cea169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d64e2323a4b61ba55a9a3361eaa96c') in 0.022485 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/素材/Default size/tankBody_huge.png
+  artifactKey: Guid(9af2cd5e79807634fb2298b136302e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBody_huge.png using Guid(9af2cd5e79807634fb2298b136302e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c26513b20ab229ccaeaa04b4b61383a') in 0.020489 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/素材/Default size/bulletGreen3.png
+  artifactKey: Guid(644e5ca14086cfd42ac08a385fa729ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletGreen3.png using Guid(644e5ca14086cfd42ac08a385fa729ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e2fd70ecc13ac45f387f0bf051a207') in 0.021565 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/素材/Default size/explosionSmoke2.png
+  artifactKey: Guid(cf3ef4fdd3243c44f86a91f687726533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/explosionSmoke2.png using Guid(cf3ef4fdd3243c44f86a91f687726533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c146b346e72a61a772512beb6034b3fb') in 0.021750 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/素材/Default size/oilSpill_small.png
+  artifactKey: Guid(261c419bb6bc1764d96c9c364b621c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/oilSpill_small.png using Guid(261c419bb6bc1764d96c9c364b621c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201a3249f7fd00ea810360a41880f23a') in 0.020633 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/素材/Default size/bulletRed2_outline.png
+  artifactKey: Guid(986b3944b0383ce439b4e787465f8472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletRed2_outline.png using Guid(986b3944b0383ce439b4e787465f8472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39afb538edd774841af0be3d0bf40fa') in 0.022596 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/素材/Default size/tankBody_red.png
+  artifactKey: Guid(187c18a4931afbe40a3db905ce1e0672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBody_red.png using Guid(187c18a4931afbe40a3db905ce1e0672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8b0c25e5ed5318b19afe5aa512541c') in 0.022064 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/素材/Default size/tankDark_barrel1_outline.png
+  artifactKey: Guid(d663b22c971a38f47af685dac41fde76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankDark_barrel1_outline.png using Guid(d663b22c971a38f47af685dac41fde76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602e6be9f05c8468732d94ace2273ce6') in 0.023194 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/素材/Default size/explosion1.png
+  artifactKey: Guid(6a308b841ade6e94b8fb5f163632e0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/explosion1.png using Guid(6a308b841ade6e94b8fb5f163632e0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32598c56784b779df033437301546f5') in 0.020256 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/素材/Default size/tileGrass2.png
+  artifactKey: Guid(ea6e9c9a41fa08e408cb89825e6a2a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tileGrass2.png using Guid(ea6e9c9a41fa08e408cb89825e6a2a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c6b4dc8bf871ddd4fd4a4b113bbea7') in 0.020980 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/素材/Default size/bulletGreen2_outline.png
+  artifactKey: Guid(9aff6bd57509dc2429d9c722178ed084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletGreen2_outline.png using Guid(9aff6bd57509dc2429d9c722178ed084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c52b9977aaf52e61d614a515c3082be') in 0.021656 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/素材/Default size/tankRed_barrel3_outline.png
+  artifactKey: Guid(1a5b6dbf2d562ec44a778d11641b776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankRed_barrel3_outline.png using Guid(1a5b6dbf2d562ec44a778d11641b776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6510570ef7284949ed3c077998f16c') in 0.022234 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/素材/Default size/tileGrass1.png
+  artifactKey: Guid(86fb4bc82e806294c8f27d94883aa73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tileGrass1.png using Guid(86fb4bc82e806294c8f27d94883aa73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30274c7f982f6809c0d967ac02e05bd9') in 0.020143 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/素材/Default size/barrelRed_top.png
+  artifactKey: Guid(afe8d276902c6c34bb12a665b3408d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/barrelRed_top.png using Guid(afe8d276902c6c34bb12a665b3408d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d49817b3a259f493039da037c807642') in 0.019708 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/素材/Default size/crateWood_side.png
+  artifactKey: Guid(6bc720351ddc5e34f868dabfa2ffa0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/crateWood_side.png using Guid(6bc720351ddc5e34f868dabfa2ffa0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e47197fedbd645d2143099c758dd52') in 0.018837 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/素材/Default size/barrelGreen_side.png
+  artifactKey: Guid(c4378a725a6febf4985eec10690719d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/barrelGreen_side.png using Guid(c4378a725a6febf4985eec10690719d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a24fddadee812011a3664f270c05d1') in 0.019192 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/素材/Default size/bulletSand2_outline.png
+  artifactKey: Guid(9c2fb94157c957445bca4c228b319aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletSand2_outline.png using Guid(9c2fb94157c957445bca4c228b319aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dba7d856badf4fd1657f2a4d5d6ba8') in 0.019558 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/素材/Default size/specialBarrel4.png
+  artifactKey: Guid(3e4d13131f35aa8458f5f8c8e17e40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/specialBarrel4.png using Guid(3e4d13131f35aa8458f5f8c8e17e40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fdb2ea63edb26dd83b7db6b2b49162') in 0.018479 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/素材/Default size/specialBarrel2.png
+  artifactKey: Guid(3d84ce58fcaf40d4da864c6a383f1563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/specialBarrel2.png using Guid(3d84ce58fcaf40d4da864c6a383f1563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd987ff0043183d51020adde62195f7') in 0.018585 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/素材/Default size/shotRed.png
+  artifactKey: Guid(86dd91eba1729fc42bbc0532510e2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/shotRed.png using Guid(86dd91eba1729fc42bbc0532510e2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a12912bce7808779b7f6b09423d621') in 0.017827 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/素材/Default size/tankBlue_barrel1.png
+  artifactKey: Guid(78f5bb5ad86132745a4b0647ce100d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBlue_barrel1.png using Guid(78f5bb5ad86132745a4b0647ce100d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8dee1aacbf292f696187c9d7a57091') in 0.018429 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/素材/Default size/tankSand_barrel2_outline.png
+  artifactKey: Guid(0bd1cba6f1979f34190fafdd6c89f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankSand_barrel2_outline.png using Guid(0bd1cba6f1979f34190fafdd6c89f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d852660d381f24aa818090a37e46ce') in 0.021999 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/素材/Default size/bulletBlue1_outline.png
+  artifactKey: Guid(d683a740cb54388418110712f7324861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletBlue1_outline.png using Guid(d683a740cb54388418110712f7324861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd040de8dbbb15bb9f1731ae5e40364d5') in 0.021907 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/素材/Default size/tankBody_bigRed.png
+  artifactKey: Guid(00b0dd6473294c94c8f6dc237e0dafc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBody_bigRed.png using Guid(00b0dd6473294c94c8f6dc237e0dafc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4853481fcb262c1696b126c68a08d99b') in 0.017363 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/素材/Default size/tankDark_barrel1.png
+  artifactKey: Guid(68be07fa66afab545a07081958d82ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankDark_barrel1.png using Guid(68be07fa66afab545a07081958d82ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcccbbca36f27ac14249a6254ae7a66') in 0.020161 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/素材/Default size/barrelRust_top.png
+  artifactKey: Guid(efd17a566afd41440acbfdb9a5f77183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/barrelRust_top.png using Guid(efd17a566afd41440acbfdb9a5f77183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b7e27c1e786d91dbc61664c5acf5cc') in 0.026622 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/素材/Default size/tankSand_barrel2.png
+  artifactKey: Guid(a79ecd705439cf44ca5fdad1f264a089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankSand_barrel2.png using Guid(a79ecd705439cf44ca5fdad1f264a089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8684b5b78074769763f2043421da0069') in 0.020593 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/素材/Default size/tankBody_green_outline.png
+  artifactKey: Guid(244139024c166d34d94176de2b3fae4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBody_green_outline.png using Guid(244139024c166d34d94176de2b3fae4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893581af642debe873816fd383775588') in 0.020070 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/素材/Default size/bulletGreen2.png
+  artifactKey: Guid(2df94dc98c0d6eb4384fa6f2ed2d0e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletGreen2.png using Guid(2df94dc98c0d6eb4384fa6f2ed2d0e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd555c45274dc96da22b282760952a9a5') in 0.027675 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/素材/Default size/bulletGreen1_outline.png
+  artifactKey: Guid(77f98e0cf10fdc0439fd2b0f41f07a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletGreen1_outline.png using Guid(77f98e0cf10fdc0439fd2b0f41f07a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3649d4553599830c5affe4e78f78d5e6') in 0.022475 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/素材/Default size/specialBarrel7.png
+  artifactKey: Guid(5f9e07c98fba9da4aa99695b5e56c97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/specialBarrel7.png using Guid(5f9e07c98fba9da4aa99695b5e56c97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6afb14fe03c2a50ecb5d7d858d8544') in 0.022883 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/素材/Default size/tankBody_blue.png
+  artifactKey: Guid(8614797a436db8c4d8f6935d2349845b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBody_blue.png using Guid(8614797a436db8c4d8f6935d2349845b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42204d1ba6c2eea7947956bbf24a5eb7') in 0.020296 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/素材/Default size/bulletDark3.png
+  artifactKey: Guid(f8500323934d01849bcf9ac2d9997701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletDark3.png using Guid(f8500323934d01849bcf9ac2d9997701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a310cb01f492ef660e629ee25e9f1c8') in 0.021325 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/素材/Default size
+  artifactKey: Guid(6e9da0501a94daa4b90cf66705a9290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size using Guid(6e9da0501a94daa4b90cf66705a9290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f126e46b61855e0c6cd29c726bf1479') in 0.014227 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 17.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (21.9 KB). Loaded Objects now: 3517.
-Memory consumption went from 50.6 MB to 50.6 MB.
-Total: 6.674200 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.368900 ms MarkObjects: 5.923000 ms  DeleteObjects: 0.035700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/素材/Default size/tank_green.png
+  artifactKey: Guid(bbd0abbef8520f74b8c95b25e6766990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tank_green.png using Guid(bbd0abbef8520f74b8c95b25e6766990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42edb223b0ec1d51e12dcd230bc055b7') in 0.031100 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/素材/Default size/explosion4.png
+  artifactKey: Guid(0100f377e30f8e041bc95d6816818a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/explosion4.png using Guid(0100f377e30f8e041bc95d6816818a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056fc079776f38036c887eab8428222b') in 0.027983 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/素材/Default size/bulletRed1_outline.png
+  artifactKey: Guid(6bceae8755711ff479109e2f37b0c3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletRed1_outline.png using Guid(6bceae8755711ff479109e2f37b0c3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a728ea1aad0aa568f22c15aebd7c904') in 0.023157 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/素材/Default size/fenceYellow.png
+  artifactKey: Guid(ba59e9e694c190943bd48f609f300eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/fenceYellow.png using Guid(ba59e9e694c190943bd48f609f300eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b97e2ec5fda243d73847780d1b3a5f') in 0.023846 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/素材/Default size/barrelBlack_top.png
+  artifactKey: Guid(c40c87f8425789648ae5e8126b7471ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/barrelBlack_top.png using Guid(c40c87f8425789648ae5e8126b7471ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b406d534a2f22e22578ee7417523ee7f') in 0.024272 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/素材/Default size/explosionSmoke4.png
+  artifactKey: Guid(c445300d0733da7479ff4bdfbf00f1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/explosionSmoke4.png using Guid(c445300d0733da7479ff4bdfbf00f1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd522e50e89989e16d1043901963c13e9') in 0.020066 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/素材/Default size/tileGrass_roadCornerLL.png
+  artifactKey: Guid(8cff6703a8202074ea1681f7dba9bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tileGrass_roadCornerLL.png using Guid(8cff6703a8202074ea1681f7dba9bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db78d83a6fdee10870b77a0fe59e7e45') in 0.022736 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/素材/Default size/bulletDark2.png
+  artifactKey: Guid(5bfeb2125b9cc604d8e4a0d670c7edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletDark2.png using Guid(5bfeb2125b9cc604d8e4a0d670c7edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af3bd4e470b807065c07e99c0cc4b00') in 0.020819 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/素材/Default size/explosionSmoke5.png
+  artifactKey: Guid(586bbbed269b88d47b232620fc96fbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/explosionSmoke5.png using Guid(586bbbed269b88d47b232620fc96fbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38db08cb1eb23fb3fc166bd87781e007') in 0.028794 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/素材/Default size/tankBody_huge_outline.png
+  artifactKey: Guid(aaed4730ff9e2b943a10b76c08419c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tankBody_huge_outline.png using Guid(aaed4730ff9e2b943a10b76c08419c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92eeaaba1591404475d6c2e83b6b867a') in 0.026703 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/素材/Default size/shotOrange.png
+  artifactKey: Guid(a23e6963534fb0e4a9761dbce30068d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/shotOrange.png using Guid(a23e6963534fb0e4a9761dbce30068d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd2ed5e03d953f584ed65a981f6a22a') in 0.023447 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/素材/Default size/shotLarge.png
+  artifactKey: Guid(917e74146051e2d4ab214075a9bd0721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/shotLarge.png using Guid(917e74146051e2d4ab214075a9bd0721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180465996602c61d05c57ea9aebd1a4a') in 0.027260 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/素材/Default size/bulletBlue3.png
+  artifactKey: Guid(7eabc7bf7d7a69a4e86b54cdcd5efe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/bulletBlue3.png using Guid(7eabc7bf7d7a69a4e86b54cdcd5efe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e889d93f56199e05906c67141f95d31') in 0.025328 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/素材/Default size/tank_darkLarge.png
+  artifactKey: Guid(2aece8b18c7d4d34aa26a7d12fe2fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/素材/Default size/tank_darkLarge.png using Guid(2aece8b18c7d4d34aa26a7d12fe2fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a180a10668d99097d3c95f946635034') in 0.025411 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013214 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.819 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1819ms)
-		BeginReloadAssembly (224ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1404ms)
-			LoadAssemblies (155ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (430ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (760ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (632ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (22.0 KB). Loaded Objects now: 3520.
-Memory consumption went from 111.8 MB to 111.7 MB.
-Total: 3.113200 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.235400 ms MarkObjects: 2.543100 ms  DeleteObjects: 0.027200 ms)
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (21.9 KB). Loaded Objects now: 3522.
+Memory consumption went from 49.2 MB to 49.2 MB.
+Total: 3.896700 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.264500 ms MarkObjects: 3.321800 ms  DeleteObjects: 0.035800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -254,3 +704,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
