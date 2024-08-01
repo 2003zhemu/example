@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &47191538 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1601767297893692449, guid: 4f3bcd62ae2528646b6e53a1bb4e56f0, type: 3}
@@ -242,6 +243,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42e42667a567ec24e86a8f6684b364a2, type: 3}
+=======
+>>>>>>> 7c52fe08fe2c48b6a3171491c69aea965b54f0de
 --- !u!1 &701260007
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701260009}
   - component: {fileID: 701260008}
+  - component: {fileID: 701260010}
   m_Layer: 0
   m_Name: world
   m_TagString: Untagged
@@ -289,6 +293,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &701260010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701260007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382fdc9bb01c4954a9be1bc443d29f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shengti1: {fileID: 21300000, guid: 4fc1f96bfc304034c848e4eab13a078d, type: 3}
+  shengti2: {fileID: 21300000, guid: d1b00d8fc01e97f4ab241c394cc53906, type: 3}
+  shengti3: {fileID: 21300000, guid: aaed4730ff9e2b943a10b76c08419c3e, type: 3}
+  qingguan1: {fileID: 2100936734730630874, guid: 0cb6df22f79916a49935cf2f58877fa3, type: 3}
+  qingguan2: {fileID: 6337357507623880947, guid: 63daaea4ee0d7ee47b0f3ed81984d55b, type: 3}
+  qingguan3: {fileID: 3703082805781350396, guid: 21da6a795c382db4da042ac9caa9cef9, type: 3}
+>>>>>>> 7c52fe08fe2c48b6a3171491c69aea965b54f0de
 --- !u!1 &867644299
 GameObject:
   m_ObjectHideFlags: 0
