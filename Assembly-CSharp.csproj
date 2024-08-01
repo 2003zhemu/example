@@ -57,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\脚本\more.cs" />
-    <Compile Include="Assets\脚本\world.cs" />
     <Compile Include="Assets\脚本\camera.cs" />
+    <Compile Include="Assets\脚本\world.cs" />
+    <Compile Include="Assets\FeiDan.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
