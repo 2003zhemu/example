@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\脚本\camera.cs" />
-    <Compile Include="Assets\脚本\world.cs" />
+    <Compile Include="Assets\脚本\zidanfashe.cs" />
+    <Compile Include="Assets\脚本\FeiDan.cs" />
     <Compile Include="Assets\脚本\al\ai.cs" />
     <Compile Include="Assets\脚本\al\aishengchen.cs" />
-    <Compile Include="Assets\脚本\zidanfashe.cs" />
     <Compile Include="Assets\脚本\zidanfly.cs" />
+    <Compile Include="Assets\脚本\more.cs" />
+    <Compile Include="Assets\脚本\camera.cs" />
+    <Compile Include="Assets\脚本\world.cs" />
     <Compile Include="Assets\脚本\baozha.cs" />
   </ItemGroup>
   <ItemGroup>
