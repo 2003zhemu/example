@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class world : MonoBehaviour
 {
+    public GameObject Zhangaiwu;
+    float CloneX;
+    float CloneY;
+
     [SerializeField] private Sprite dixin1;//图片1
     [SerializeField] private Sprite dixin2;//图片2
     [SerializeField] private Sprite dixin3;//图片3
@@ -14,6 +19,7 @@ public class world : MonoBehaviour
     void Start()
     {
         world_shengcheng(20, 20);
+        world_zhangaiWu();
     }
 
     // Update is called once per frame
@@ -49,5 +55,27 @@ public class world : MonoBehaviour
             }
         }
     }
-  
+    //随机生成障碍物的方法
+    private void world_zhangaiWu()
+    {
+        //定义一个二维数组，容纳、
+        //生成的坐标
+        List<Vector2> TempP= new List<Vector2>();
+
+        Debug.Log("生成随机数");
+        for (int i=1; i<20; i++) {
+            CloneX = Random.Range(1f, 20f);
+            CloneY = Random.Range(1f, 20f);
+            Vector2 TempPos = new Vector2(CloneX, CloneY);
+
+            if (!TempP.Contains(TempPos)) {
+                GameObject hj = Instantiate(Zhangaiwu);
+
+                Debug.Log("随机坐标" + TempPos);
+                hj.transform.position = TempPos;
+                TempP.Add(TempPos);
+            }
+            
+        }
+    }
 }

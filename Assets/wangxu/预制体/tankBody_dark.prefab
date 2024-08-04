@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 1601767297893692454}
   - component: {fileID: 1601767297893692455}
   - component: {fileID: 1601767297893692448}
+  - component: {fileID: 7662622103701547915}
   m_Layer: 0
   m_Name: tankBody_dark
   m_TagString: Untagged
@@ -182,5 +183,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35d30a6329e56ce43bb68d5e940dbbaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zhidanPrefab: {fileID: 0}
+  fasheDian: {fileID: 0}
   speed: 1
   rotation: 60
+--- !u!61 &7662622103701547915
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601767297893692449}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.38, y: 0.36}
+    newSize: {x: 0.38, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.38, y: 0.36}
+  m_EdgeRadius: 0
