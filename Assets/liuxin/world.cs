@@ -6,8 +6,11 @@ using UnityEngine;
 public class world : MonoBehaviour
 {
     public GameObject Zhangaiwu;
+    public GameObject Zhangaiwu1;
     float CloneX;
     float CloneY;
+    float CloneX1;
+    float CloneY1;
 
     [SerializeField] private Sprite dixin1;//图片1
     [SerializeField] private Sprite dixin2;//图片2
@@ -63,17 +66,35 @@ public class world : MonoBehaviour
         List<Vector2> TempP= new List<Vector2>();
 
         Debug.Log("生成随机数");
-        for (int i=1; i<20; i++) {
-            CloneX = Random.Range(1f, 20f);
-            CloneY = Random.Range(1f, 20f);
-            Vector2 TempPos = new Vector2(CloneX, CloneY);
+        for (int i=1; i<40; i++) {
+            if (i < 20)
+            {
+                CloneX = Random.Range(1f, 20f);
+                CloneY = Random.Range(1f, 20f);
+                
+                Vector2 TempPos = new Vector2(CloneX, CloneY);
+                
 
-            if (!TempP.Contains(TempPos)) {
-                GameObject hj = Instantiate(Zhangaiwu);
+                if (!TempP.Contains(TempPos))
+                {
+                    GameObject hj = Instantiate(Zhangaiwu);
 
-                Debug.Log("随机坐标" + TempPos);
-                hj.transform.position = TempPos;
-                TempP.Add(TempPos);
+                    Debug.Log("随机坐标" + TempPos);
+                    hj.transform.position = TempPos;
+                    TempP.Add(TempPos);
+                }
+            }
+            else
+            {
+                CloneX1 = Random.Range(1f, 20f);
+                CloneY1 = Random.Range(1f, 20f); 
+                Vector2 TempPos1 = new Vector2(CloneX1, CloneY1);
+                if (!TempP.Contains(TempPos1))
+                {
+                    GameObject hj = Instantiate(Zhangaiwu1);
+                    hj.transform.position = TempPos1;
+                    TempP.Add(TempPos1);
+                }
             }
             
         }
