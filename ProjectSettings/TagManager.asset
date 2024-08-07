@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Jianzhuwu
   layers:
   - Default
   - TransparentFX
@@ -12,7 +13,7 @@ TagManager:
   - Water
   - UI
   - "\u5B50\u5F39"
-  - 
+  - "\u7269\u4F53"
   - 
   - 
   - 

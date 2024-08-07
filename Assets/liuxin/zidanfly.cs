@@ -22,13 +22,9 @@ public class zidanfly : MonoBehaviour
         Instantiate(baozha, transform.position, Quaternion.identity);
         Destroy(gameObject); 
     }
-    private void OnTriggerEnter2D(Collider2D collision)//Åö×²Ö´ÐÐsiwang
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("diren"))
-        {
-            siwang();
-        }
-        if (collision.gameObject.CompareTag("jianzhuwu"))
+        if (collision.gameObject.CompareTag("Jianzhuwu"))
         {
             siwang();
         }
