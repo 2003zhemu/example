@@ -3,7 +3,9 @@ guid: 35d30a6329e56ce43bb68d5e940dbbaa
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - zhidanPrefab: {instanceID: 0}
+  - fasheDian: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

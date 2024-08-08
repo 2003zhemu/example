@@ -3,7 +3,9 @@ guid: a8f602bf0e7c6884b943518deec83a40
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - zidan: {instanceID: 0}
+  - texiao: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
