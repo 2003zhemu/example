@@ -1,8 +1,10 @@
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class ai : MonoBehaviour
+public class ai : MonoBehaviourPunCallbacks
 {
     public float speed=2;
     public float rata=60;
@@ -20,6 +22,8 @@ public class ai : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!photonView.IsMine && PhotonNetwork.IsConnected)
+        { return; }
         yidon();
         fashe();
     }

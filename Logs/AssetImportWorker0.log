@@ -1,0 +1,2277 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.30f1c1 (f004340bb748) revision 15729716'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16105 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unityt\2021.3.30f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/youxi/example
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54710
+Successfully changed project path to: F:/youxi/example
+F:/youxi/example
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3976] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 3902859202 [EditorId] 3902859202 [Version] 1048832 [Id] WindowsEditor(7,om) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3976] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 3902859202 [EditorId] 3902859202 [Version] 1048832 [Id] WindowsEditor(7,om) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 53.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1c1 (f004340bb748)
+[Subsystems] Discovering subsystems at path D:/unityt/2021.3.30f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/youxi/example/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'D:/unityt/2021.3.30f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unityt/2021.3.30f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unityt/2021.3.30f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unityt/2021.3.30f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unityt/2021.3.30f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004927 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 296 ms
+Refreshing native plugins compatible for Editor in 55.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (922ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (371ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1356ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1143ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (751ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (642ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.3 KB). Loaded Objects now: 3529.
+Memory consumption went from 116.6 MB to 116.6 MB.
+Total: 3.107300 ms (FindLiveObjects: 0.370300 ms CreateObjectMapping: 0.239200 ms MarkObjects: 2.409100 ms  DeleteObjects: 0.087800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83689.812950 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(693df0ffe4a9b44429a1d2d253d1b42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(693df0ffe4a9b44429a1d2d253d1b42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40326723cb708022bbae46557678caa1') in 0.007172 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (21.9 KB). Loaded Objects now: 3529.
+Memory consumption went from 54.8 MB to 54.8 MB.
+Total: 2.668400 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.065200 ms MarkObjects: 2.376200 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.757652 seconds.
+  path: Assets/Scenes/more-world.unity
+  artifactKey: Guid(7580d3ac257dfec429b7a2fc26c42bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/more-world.unity using Guid(7580d3ac257dfec429b7a2fc26c42bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b7116f759d91f82dc4f09dad820547') in 0.001357 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1562.600992 seconds.
+  path: Assets/Scenes/liuxin.unity
+  artifactKey: Guid(c8e2af8a1980b1348b34d53f1bc3020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/liuxin.unity using Guid(c8e2af8a1980b1348b34d53f1bc3020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07048c79abad4d0df335a59304a3e263') in 0.001455 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.281565 seconds.
+  path: Assets/Scenes/more-world.unity
+  artifactKey: Guid(7580d3ac257dfec429b7a2fc26c42bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/more-world.unity using Guid(7580d3ac257dfec429b7a2fc26c42bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b68116f294ab4229735939833a7355') in 0.001085 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1631ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1285ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (817ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (696ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3532.
+Memory consumption went from 116.1 MB to 116.1 MB.
+Total: 3.336700 ms (FindLiveObjects: 0.331600 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.885700 ms  DeleteObjects: 0.024800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1594ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1281ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (817ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (696ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3535.
+Memory consumption went from 116.1 MB to 116.1 MB.
+Total: 3.056700 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.098900 ms MarkObjects: 2.656200 ms  DeleteObjects: 0.031800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 217.927248 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.031570 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.845219 seconds.
+  path: Assets/wangxu
+  artifactKey: Guid(6af5dda933cfeac408c804ccec32ff4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu using Guid(6af5dda933cfeac408c804ccec32ff4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb19b90d45a3b405a34c0be71afc0ea') in 0.001233 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 59.187684 seconds.
+  path: Assets/wangxu/素材
+  artifactKey: Guid(e55c7970364cf5a449849983f1e1f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材 using Guid(e55c7970364cf5a449849983f1e1f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f98550fd05c16177452145bb7b7ade5') in 0.001329 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.566646 seconds.
+  path: Assets/wangxu/素材/Default size
+  artifactKey: Guid(6e9da0501a94daa4b90cf66705a9290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size using Guid(6e9da0501a94daa4b90cf66705a9290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426ee7db6f7ea2cc182bcd2e9e3800f9') in 0.001627 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060837 seconds.
+  path: Assets/wangxu/素材/Default size/barrelBlack_side.png
+  artifactKey: Guid(799e4e1aeecee244fa25724ae4fa4f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/barrelBlack_side.png using Guid(799e4e1aeecee244fa25724ae4fa4f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065f1f5c7be7602ad211e894b3046d2a') in 0.073688 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/wangxu/素材/Default size/barricadeWood.png
+  artifactKey: Guid(4dd83c43b6467004394b9d6553cf2e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/barricadeWood.png using Guid(4dd83c43b6467004394b9d6553cf2e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f238705a6f83b1986fe5acb5d8af884b') in 0.010055 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/wangxu/素材/Default size/barrelGreen_top.png
+  artifactKey: Guid(2bd6f569fe2208343b5542cb714a7aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/barrelGreen_top.png using Guid(2bd6f569fe2208343b5542cb714a7aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6c627d5eca3d1238617ee8d22f2f3c') in 0.010632 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/wangxu/素材/Default size/barrelRed_top.png
+  artifactKey: Guid(afe8d276902c6c34bb12a665b3408d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/barrelRed_top.png using Guid(afe8d276902c6c34bb12a665b3408d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acab7f19be54c356613d85c03e7624fa') in 0.010298 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/wangxu/素材/Default size/barrelRust_side.png
+  artifactKey: Guid(d06177f4f429e5b4fa80694b0ba45b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/barrelRust_side.png using Guid(d06177f4f429e5b4fa80694b0ba45b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a1ee7ef0df541e310ee79d4967bcb7') in 0.010023 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/wangxu/素材/Default size/bulletGreen3_outline.png
+  artifactKey: Guid(9f74418f35c5b0f45a31e1cbd52f772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletGreen3_outline.png using Guid(9f74418f35c5b0f45a31e1cbd52f772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dfe57d0608a07cc1686ba5880a620e') in 0.011944 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/wangxu/素材/Default size/barrelGreen_side.png
+  artifactKey: Guid(c4378a725a6febf4985eec10690719d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/barrelGreen_side.png using Guid(c4378a725a6febf4985eec10690719d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbc30cf8304d1430078bfe4396b5c26') in 0.010972 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/wangxu/素材/Default size/bulletBlue1.png
+  artifactKey: Guid(dd0ac843dccab6a4c9bf3b627eb798df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletBlue1.png using Guid(dd0ac843dccab6a4c9bf3b627eb798df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0954bed622554a4284950fb464e0bf1') in 0.013658 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/wangxu/素材/Default size/bulletBlue3_outline.png
+  artifactKey: Guid(2d5c9e1b3d51d844a8bb4ed75e85d554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletBlue3_outline.png using Guid(2d5c9e1b3d51d844a8bb4ed75e85d554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f7cc351ba4477dd40066cbf2962a1b') in 0.010974 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/wangxu/素材/Default size/bulletDark3_outline.png
+  artifactKey: Guid(1d0501be810af1f4b8ec9706466481af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletDark3_outline.png using Guid(1d0501be810af1f4b8ec9706466481af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833b524c2c948e2e83b8e03a070f107b') in 0.009757 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/wangxu/素材/Default size/bulletGreen3.png
+  artifactKey: Guid(644e5ca14086cfd42ac08a385fa729ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletGreen3.png using Guid(644e5ca14086cfd42ac08a385fa729ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1e7feb40b7a4a2e1b3df3fbae5c573') in 0.011525 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/wangxu/素材/Default size/bulletGreen1.png
+  artifactKey: Guid(07c92d79967664f41a7525c9fb61ef07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletGreen1.png using Guid(07c92d79967664f41a7525c9fb61ef07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d704a11334a07bd4f121b156e2d9915') in 0.010104 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/wangxu/素材/Default size/bulletRed1.png
+  artifactKey: Guid(50a32a2991d4904419bc4029915c5e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletRed1.png using Guid(50a32a2991d4904419bc4029915c5e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf45d6f0a64ab92614ce80e3560be1c') in 0.010182 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/wangxu/素材/Default size/bulletDark2.png
+  artifactKey: Guid(5bfeb2125b9cc604d8e4a0d670c7edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletDark2.png using Guid(5bfeb2125b9cc604d8e4a0d670c7edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724b8241b4d1301a9ee917a6a3efcd98') in 0.010948 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/wangxu/素材/Default size/bulletDark1_outline.png
+  artifactKey: Guid(1bd6b9d3552c592498514a563c21edf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletDark1_outline.png using Guid(1bd6b9d3552c592498514a563c21edf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ae1b2f3d57beb553190f3bf124548e') in 0.018324 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/wangxu/素材/Default size/bulletDark1.png
+  artifactKey: Guid(d1f27fb7d9fc7e443a871a84d08e92cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletDark1.png using Guid(d1f27fb7d9fc7e443a871a84d08e92cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7e43b859de7ac0c022bba269b345b4') in 0.014131 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/wangxu/素材/Default size/bulletSand1_outline.png
+  artifactKey: Guid(2c9916c33626f25468ee92264dccef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletSand1_outline.png using Guid(2c9916c33626f25468ee92264dccef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6352da8b89b585615a634076c0b7bec1') in 0.011364 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/wangxu/素材/Default size/bulletRed2.png
+  artifactKey: Guid(9658805f0303f33438b853ba701147fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletRed2.png using Guid(9658805f0303f33438b853ba701147fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3282cb9e37e04adceab6bf5950d86feb') in 0.012107 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/wangxu/素材/Default size/bulletBlue2.png
+  artifactKey: Guid(ed82578e6b5241649b1a91851924674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletBlue2.png using Guid(ed82578e6b5241649b1a91851924674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd93fcfcffb7c625d81572b9cf7fb50') in 0.011432 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.312074 seconds.
+  path: Assets/wangxu/素材/Default size/bulletSand2_outline.png
+  artifactKey: Guid(9c2fb94157c957445bca4c228b319aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletSand2_outline.png using Guid(9c2fb94157c957445bca4c228b319aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a4a30070adc4437548757a9f6bb1a2') in 0.012556 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/wangxu/素材/Default size/explosion2.png
+  artifactKey: Guid(6556dae776274524995e612300d3abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/explosion2.png using Guid(6556dae776274524995e612300d3abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6209ce066343e8654750cf7e41072d9d') in 0.016704 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/wangxu/素材/Default size/explosion5.png
+  artifactKey: Guid(92c3e2386bcb75b47af5f0259b944bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/explosion5.png using Guid(92c3e2386bcb75b47af5f0259b944bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6901602b9e7fc6419f8c659c605c0b7e') in 0.014005 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/wangxu/素材/Default size/crateMetal_side.png
+  artifactKey: Guid(420ec36992e8bd74186b805a62b498bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/crateMetal_side.png using Guid(420ec36992e8bd74186b805a62b498bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a719aa1f5d803ebcfa52944ce941dd') in 0.011820 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/wangxu/素材/Default size/specialBarrel3_outline.png
+  artifactKey: Guid(0885e6f4c6f962d4aaef06ebe76d3b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/specialBarrel3_outline.png using Guid(0885e6f4c6f962d4aaef06ebe76d3b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1720a1942361ccd074c980573534abe') in 0.012505 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/wangxu/素材/Default size/shotThin.png
+  artifactKey: Guid(c445d8b7a2ffe7448b12adbe79f4ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/shotThin.png using Guid(c445d8b7a2ffe7448b12adbe79f4ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24da5161353e28f418553afcacde5378') in 0.011405 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/wangxu/素材/Default size/specialBarrel7.png
+  artifactKey: Guid(5f9e07c98fba9da4aa99695b5e56c97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/specialBarrel7.png using Guid(5f9e07c98fba9da4aa99695b5e56c97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184e7a01824ba31cac61e0a3142defd6') in 0.012002 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/wangxu/素材/Default size/specialBarrel4_outline.png
+  artifactKey: Guid(a83018a57e9d8ac459ad212ebbcd84b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/specialBarrel4_outline.png using Guid(a83018a57e9d8ac459ad212ebbcd84b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f1544295016bec8aa01765ce99db56') in 0.012085 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/wangxu/素材/Default size/tank_dark.png
+  artifactKey: Guid(d8fe1191830c1ac499ba3516fbad8224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tank_dark.png using Guid(d8fe1191830c1ac499ba3516fbad8224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9406e500e948ad84a1e7a7d7e74aa2ce') in 0.012292 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/wangxu/素材/Default size/tankBlue_barrel3.png
+  artifactKey: Guid(c8f00ba473fc8244fb8ebdd1b987c10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBlue_barrel3.png using Guid(c8f00ba473fc8244fb8ebdd1b987c10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4330175218b758abfe1bfacdc5394318') in 0.012848 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/wangxu/素材/Default size/specialBarrel4.png
+  artifactKey: Guid(3e4d13131f35aa8458f5f8c8e17e40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/specialBarrel4.png using Guid(3e4d13131f35aa8458f5f8c8e17e40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b606d282a582536c2a686142eef5ee') in 0.011433 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/wangxu/素材/Default size/specialBarrel2.png
+  artifactKey: Guid(3d84ce58fcaf40d4da864c6a383f1563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/specialBarrel2.png using Guid(3d84ce58fcaf40d4da864c6a383f1563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1a51a11d0a83dcd263db726a286bdb') in 0.012866 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/wangxu/素材/Default size/tankBlue_barrel1.png
+  artifactKey: Guid(78f5bb5ad86132745a4b0647ce100d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBlue_barrel1.png using Guid(78f5bb5ad86132745a4b0647ce100d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caf8df4ad9fb6c0dfe660adfeec3c23') in 0.020262 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/wangxu/素材/Default size/tankBlue_barrel2.png
+  artifactKey: Guid(32d4045403ee5ae45b2e442d4eb50629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBlue_barrel2.png using Guid(32d4045403ee5ae45b2e442d4eb50629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c706804e6364cc392030e20d4ccf7b6') in 0.011105 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/wangxu/素材/Default size/tankBody_bigRed.png
+  artifactKey: Guid(00b0dd6473294c94c8f6dc237e0dafc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBody_bigRed.png using Guid(00b0dd6473294c94c8f6dc237e0dafc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7c0fbf91bc7063e5fc4e095019832a') in 0.011993 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/wangxu/素材/Default size/specialBarrel6_outline.png
+  artifactKey: Guid(e76001d385f616e499f9630030697577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/specialBarrel6_outline.png using Guid(e76001d385f616e499f9630030697577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c9e9f343c618436de17b6008766e02') in 0.010489 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/wangxu/素材/Default size/specialBarrel5_outline.png
+  artifactKey: Guid(2b79ef4d2f4549d48a8a4a5e163320e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/specialBarrel5_outline.png using Guid(2b79ef4d2f4549d48a8a4a5e163320e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8e5e2265571e0ce2f84306607f15ac') in 0.010415 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/wangxu/素材/Default size/specialBarrel1_outline.png
+  artifactKey: Guid(e19e94354f55e24469882e0d1978c878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/specialBarrel1_outline.png using Guid(e19e94354f55e24469882e0d1978c878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658de9377f18725218fdc6d2e0e82cd6') in 0.009998 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/wangxu/素材/Default size/tank_blue.png
+  artifactKey: Guid(4aca699aac714404a853e13bf4f41f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tank_blue.png using Guid(4aca699aac714404a853e13bf4f41f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17385ce2cefab497450b0334c75b6cb5') in 0.010231 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/wangxu/素材/Default size/tank_green.png
+  artifactKey: Guid(bbd0abbef8520f74b8c95b25e6766990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tank_green.png using Guid(bbd0abbef8520f74b8c95b25e6766990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3e8418242aa6d7e0981223b941fd8b') in 0.011055 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/wangxu/素材/Default size/tankBlue_barrel3_outline.png
+  artifactKey: Guid(b84856af2e95e8749aba57e0cda43c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBlue_barrel3_outline.png using Guid(b84856af2e95e8749aba57e0cda43c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eee8dbf25e3ae328ffa07710ca8ff17') in 0.009436 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/wangxu/素材/Default size/specialBarrel6.png
+  artifactKey: Guid(be97e8dcb2216aa44a2ca804313c7e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/specialBarrel6.png using Guid(be97e8dcb2216aa44a2ca804313c7e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634a6254c52b910ba2f0dfd166ad4501') in 0.009056 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/wangxu/素材/Default size/fenceYellow.png
+  artifactKey: Guid(ba59e9e694c190943bd48f609f300eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/fenceYellow.png using Guid(ba59e9e694c190943bd48f609f300eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bbfd975460c8f8aa8427bf56160fbf') in 0.011764 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/wangxu/素材/Default size/explosionSmoke2.png
+  artifactKey: Guid(cf3ef4fdd3243c44f86a91f687726533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/explosionSmoke2.png using Guid(cf3ef4fdd3243c44f86a91f687726533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698af8a9401ca7705794dc9447c325ad') in 0.010209 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/wangxu/素材/Default size/fenceRed.png
+  artifactKey: Guid(689784100a372f740a92e6558df00bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/fenceRed.png using Guid(689784100a372f740a92e6558df00bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca64deb1711ff25a40153b638262560') in 0.012309 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/wangxu/素材/Default size/bulletSand3_outline.png
+  artifactKey: Guid(f2eee347a47db7f419e71e62ee7956d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/bulletSand3_outline.png using Guid(f2eee347a47db7f419e71e62ee7956d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a163334ef9c86eb539e499874698bd4a') in 0.010892 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/wangxu/素材/Default size/tankBody_darkLarge_outline.png
+  artifactKey: Guid(d1b00d8fc01e97f4ab241c394cc53906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBody_darkLarge_outline.png using Guid(d1b00d8fc01e97f4ab241c394cc53906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fed4dcba3957fb12939599b6bf4c23') in 0.012503 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/wangxu/素材/Default size/tankDark_barrel2_outline.png
+  artifactKey: Guid(07daa4b21afdcdb47975d23ced9c0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankDark_barrel2_outline.png using Guid(07daa4b21afdcdb47975d23ced9c0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8249d01ae5bfa0ed338b29b93d79fd5') in 0.015012 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/wangxu/素材/Default size/tankBody_red_outline.png
+  artifactKey: Guid(c18caa3eb0ebd0842a8e95cbd31739e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBody_red_outline.png using Guid(c18caa3eb0ebd0842a8e95cbd31739e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e54cd788a0c69c381e139415019357e') in 0.014054 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/wangxu/素材/Default size/tankGreen_barrel1.png
+  artifactKey: Guid(b796c5e6582b82446947de6efbb78438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankGreen_barrel1.png using Guid(b796c5e6582b82446947de6efbb78438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75c6ef42624198261e2bd34b12937fa') in 0.011699 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/wangxu/素材/Default size/tankBody_green_outline.png
+  artifactKey: Guid(244139024c166d34d94176de2b3fae4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBody_green_outline.png using Guid(244139024c166d34d94176de2b3fae4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9739bef53856af1e18253479f71d7677') in 0.013334 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/wangxu/素材/Default size/tankDark_barrel3_outline.png
+  artifactKey: Guid(ddd88feb33e841d4987e184d1eb4052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankDark_barrel3_outline.png using Guid(ddd88feb33e841d4987e184d1eb4052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a28e43bf97bfca2ff8659063b787f6') in 0.011701 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/wangxu/素材/Default size/tankBody_dark_outline.png
+  artifactKey: Guid(043c7fc4adeec1249951c62c18fcacec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBody_dark_outline.png using Guid(043c7fc4adeec1249951c62c18fcacec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ada997964ccca02431c48a36f818644') in 0.011485 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/wangxu/素材/Default size/tankBody_dark.png
+  artifactKey: Guid(d68d9a05a0962d647a290b398ab700ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBody_dark.png using Guid(d68d9a05a0962d647a290b398ab700ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a980a9843e664344f219b0a47d997d') in 0.012022 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/wangxu/素材/Default size/tankBody_green.png
+  artifactKey: Guid(e6824e8b40efa9e40969dd60bf157d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBody_green.png using Guid(e6824e8b40efa9e40969dd60bf157d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d609a83abcfe9cbef75140495136fc') in 0.011799 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/wangxu/素材/Default size/tankBody_red.png
+  artifactKey: Guid(187c18a4931afbe40a3db905ce1e0672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBody_red.png using Guid(187c18a4931afbe40a3db905ce1e0672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801d6c1b2ba55cdc9037307da7661249') in 0.012337 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/wangxu/素材/Default size/tankBody_huge_outline.png
+  artifactKey: Guid(aaed4730ff9e2b943a10b76c08419c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBody_huge_outline.png using Guid(aaed4730ff9e2b943a10b76c08419c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137a1e89b3e1acb6eaea8c7096cdcb8c') in 0.011219 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/wangxu/素材/Default size/shotLarge.png
+  artifactKey: Guid(917e74146051e2d4ab214075a9bd0721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/shotLarge.png using Guid(917e74146051e2d4ab214075a9bd0721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e17eeaf0389aa89bb8f6c6c4504220') in 0.010053 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/wangxu/素材/Default size/tankBlue_barrel2_outline.png
+  artifactKey: Guid(6b05edc48f41cd64ea550b5cd35047ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankBlue_barrel2_outline.png using Guid(6b05edc48f41cd64ea550b5cd35047ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d50c3ffc1d6aa9ce5431fcc5ef1c06f') in 0.009778 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/wangxu/素材/Default size/sandbagBrown_open.png
+  artifactKey: Guid(b116b333f5d648a46af42a3e499962e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/sandbagBrown_open.png using Guid(b116b333f5d648a46af42a3e499962e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce896ec93a5f90064d3f9f211c111a58') in 0.013679 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/wangxu/素材/Default size/tank_darkLarge.png
+  artifactKey: Guid(2aece8b18c7d4d34aa26a7d12fe2fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tank_darkLarge.png using Guid(2aece8b18c7d4d34aa26a7d12fe2fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd78bc63f23cf09ff15a8937fcd22532') in 0.011294 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/wangxu/素材/Default size/oilSpill_large.png
+  artifactKey: Guid(6c10d86217383ed46abef2b59ed8d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/oilSpill_large.png using Guid(6c10d86217383ed46abef2b59ed8d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e11f968ce63f0c6467b19fc9a3c57b1') in 0.018695 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.952121 seconds.
+  path: Assets/wangxu/素材/Default size/tankGreen_barrel3_outline.png
+  artifactKey: Guid(eb0091b8389e1914184eb269d6cea169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankGreen_barrel3_outline.png using Guid(eb0091b8389e1914184eb269d6cea169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d247ed9723f94ef543f074c232fa0b5') in 0.013372 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/wangxu/素材/Default size/tankRed_barrel3_outline.png
+  artifactKey: Guid(1a5b6dbf2d562ec44a778d11641b776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankRed_barrel3_outline.png using Guid(1a5b6dbf2d562ec44a778d11641b776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75732a88312e6e6e9d857eb5d20f2b9') in 0.013303 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/wangxu/素材/Default size/tankRed_barrel3.png
+  artifactKey: Guid(84cc683d9c6ef8043be02aa458b6e453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankRed_barrel3.png using Guid(84cc683d9c6ef8043be02aa458b6e453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc2815aa67dfc3ab9adea93aebea581') in 0.014620 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/wangxu/素材/Default size/tankSand_barrel2.png
+  artifactKey: Guid(a79ecd705439cf44ca5fdad1f264a089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankSand_barrel2.png using Guid(a79ecd705439cf44ca5fdad1f264a089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca14852810143879cbd657aae56c64b1') in 0.010990 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/wangxu/素材/Default size/tankSand_barrel1.png
+  artifactKey: Guid(54dc0be740607184ead182c3950a2b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankSand_barrel1.png using Guid(54dc0be740607184ead182c3950a2b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809d67f6e15a7ef8d8786a62cc22ecae') in 0.012410 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/wangxu/素材/Default size/tankRed_barrel1_outline.png
+  artifactKey: Guid(b999c86193a5d574aacf23a12cba7d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/wangxu/素材/Default size/tankRed_barrel1_outline.png using Guid(b999c86193a5d574aacf23a12cba7d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193ae3d660e6c1f24c6683d7c55788db') in 0.009049 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006484 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.560 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1561ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1265ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (829ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (706ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3607.
+Memory consumption went from 116.4 MB to 116.4 MB.
+Total: 3.250100 ms (FindLiveObjects: 0.262400 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.853600 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1506ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1236ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (802ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (684ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3610.
+Memory consumption went from 116.4 MB to 116.4 MB.
+Total: 3.039900 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.612000 ms  DeleteObjects: 0.027100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008099 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.498 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1498ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1240ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (803ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (691ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3613.
+Memory consumption went from 116.4 MB to 116.4 MB.
+Total: 3.162200 ms (FindLiveObjects: 0.254100 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.791900 ms  DeleteObjects: 0.030100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 343.012818 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936cfa54565c7d39ad6990f462a78610') in 0.077526 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1465ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1198ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (781ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (673ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3621.
+Memory consumption went from 116.5 MB to 116.5 MB.
+Total: 2.745500 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.092000 ms MarkObjects: 2.297700 ms  DeleteObjects: 0.025900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.048307 seconds.
+  path: Assets/liuxin/yuzhiti/子弹1.prefab
+  artifactKey: Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹1.prefab using Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc062c19e90c914086fe4b15f4126fde') in 0.056034 seconds 
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 14.922572 seconds.
+  path: Assets/liuxin/yuzhiti/子弹2.prefab
+  artifactKey: Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹2.prefab using Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f79f4d8c55259dfc8da5b6178e15c3') in 0.010547 seconds 
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.007988 seconds.
+  path: Assets/liuxin/yuzhiti/枪口2.prefab
+  artifactKey: Guid(63daaea4ee0d7ee47b0f3ed81984d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口2.prefab using Guid(63daaea4ee0d7ee47b0f3ed81984d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7052cda484b53aea9cd4c6ea5d1e9c') in 0.012415 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/liuxin/yuzhiti/子弹3.prefab
+  artifactKey: Guid(55de138623d58cc46a6b822f9ee201c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹3.prefab using Guid(55de138623d58cc46a6b822f9ee201c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd708a48da8f6fc6413353115f6196b') in 0.010523 seconds 
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/liuxin/yuzhiti/爆炸.prefab
+  artifactKey: Guid(3739155c6e437e340b4b12b037a39213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/爆炸.prefab using Guid(3739155c6e437e340b4b12b037a39213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b817a6306671e3e4cfa7d6cac6533763') in 0.007305 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1527ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1237ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (805ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (686ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (22.0 KB). Loaded Objects now: 3624.
+Memory consumption went from 116.5 MB to 116.5 MB.
+Total: 3.714800 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.082300 ms MarkObjects: 3.355800 ms  DeleteObjects: 0.034100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.545 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1547ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1271ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (714ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (22.0 KB). Loaded Objects now: 3627.
+Memory consumption went from 116.5 MB to 116.5 MB.
+Total: 2.575900 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.214300 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005629 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.480 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1480ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1218ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (807ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (691ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3630.
+Memory consumption went from 116.5 MB to 116.5 MB.
+Total: 2.728700 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.083100 ms MarkObjects: 2.368600 ms  DeleteObjects: 0.019800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.402648 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d160752f5b767406b54ebef52fb82b6') in 0.051182 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.469 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1470ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1205ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (795ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (682ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3633.
+Memory consumption went from 116.5 MB to 116.5 MB.
+Total: 2.968000 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.613600 ms  DeleteObjects: 0.022000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150.623246 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052ae95505c9352e6395a4c4c115df4e') in 0.053630 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1536ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1257ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (816ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (697ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3636.
+Memory consumption went from 116.5 MB to 116.5 MB.
+Total: 3.586200 ms (FindLiveObjects: 0.273000 ms CreateObjectMapping: 0.166600 ms MarkObjects: 3.105500 ms  DeleteObjects: 0.039500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.627215 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970d41759ad6603fc70d4490fae25c0a') in 0.054095 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 3.315169 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c45d6521eca29b9f4407cb14c47e887') in 0.010297 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1532ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1260ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (711ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3639.
+Memory consumption went from 116.6 MB to 116.5 MB.
+Total: 2.980100 ms (FindLiveObjects: 0.338400 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.504600 ms  DeleteObjects: 0.025800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.337874 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d04ba9603dbd1467c01e15f72730f7') in 0.068317 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007878 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1443ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1155ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (634ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 3742.
+Memory consumption went from 120.4 MB to 120.4 MB.
+Total: 2.739700 ms (FindLiveObjects: 0.223000 ms CreateObjectMapping: 0.075700 ms MarkObjects: 2.411600 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 461.828150 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(f1eefea85b2261e45aedd7139d0e8abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(f1eefea85b2261e45aedd7139d0e8abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44431928ff928e117cbc08b395accb44') in 0.007056 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.808104 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e985dd869cd8cc8b0d8077d3b38e01') in 0.057588 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 35.026021 seconds.
+  path: Assets/Photon/PhotonUnityNetworking
+  artifactKey: Guid(d2b6672cc770a19438ff06fcb2637630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Photon/PhotonUnityNetworking using Guid(d2b6672cc770a19438ff06fcb2637630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02652f997a7695fde65bc0e3f4825319') in 0.001143 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.221856 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources
+  artifactKey: Guid(cbfdb44c35c0f3c45a1c5850b0ab357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Photon/PhotonUnityNetworking/Resources using Guid(cbfdb44c35c0f3c45a1c5850b0ab357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f403f3d7528137cab74beaefa81bff0e') in 0.001097 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 81.933375 seconds.
+  path: Assets/liuxin/wangluolianjie.cs
+  artifactKey: Guid(921d84c0c8427b446940aa238a27da2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/wangluolianjie.cs using Guid(921d84c0c8427b446940aa238a27da2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928cba8090e3111a1cf7d2809b3760a1') in 0.009979 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1421ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1153ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (764ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (661ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 3747.
+Memory consumption went from 120.4 MB to 120.4 MB.
+Total: 2.912800 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.192100 ms MarkObjects: 2.431300 ms  DeleteObjects: 0.032100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.479 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1480ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1204ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (747ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (640ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (21.9 KB). Loaded Objects now: 3751.
+Memory consumption went from 120.5 MB to 120.4 MB.
+Total: 3.413400 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.075600 ms MarkObjects: 3.039700 ms  DeleteObjects: 0.048300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.414 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1414ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1143ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (744ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (642ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (21.9 KB). Loaded Objects now: 3755.
+Memory consumption went from 120.5 MB to 120.4 MB.
+Total: 3.299200 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.118700 ms MarkObjects: 2.900000 ms  DeleteObjects: 0.023200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 341.799076 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50f8d7dd8a5f3159ba7736edd4c0b20') in 0.061571 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 24.884016 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fefdf1fe31ccb4540d2dc627b3f83f') in 0.011551 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 27.408291 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576890c855aaa5ef6638e2cc3e639fb2') in 0.019150 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 317.138768 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d403dfe65db72c4a11c516cde787760') in 0.012636 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 1.431210 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8ceae49f69fe2436ccee177913b0ad') in 0.010772 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 3.103929 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171ba7673c9b7b8ddbe960a177655d11') in 0.012622 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 4.710071 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273f30c96e1e3d643f27c1b7c0578ea1') in 0.010242 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 17.933690 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85bbcd72c3f1d5c097a427c4c9b2fce') in 0.011317 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 30.862896 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67fa2a11d521446e1f9830ba39f538f') in 0.011663 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 11.676135 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d3eb3f6ed47a4c0986e0f5742c324f') in 0.010197 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 6.201174 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aacaa697cbaf2fa3fd70fd9f9805103') in 0.010418 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 7.751897 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb8b5eb936527f76be92bd9bd0fe964') in 0.011435 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 4.607037 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa63a5f3d7750bf86c89e3358b340288') in 0.010453 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 7.077733 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34aa1ac76b5c282ec6456120259f9c55') in 0.010882 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 6.341709 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93aeec7e8f088269345b9bdf96973a6e') in 0.010661 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 43.385708 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333f129d4e97b0bb63752ee892f83236') in 0.022876 seconds 
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 3.413166 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac41d0541be333d307a4ad63aefbe35') in 0.010636 seconds 
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 4.095713 seconds.
+  path: Assets/liuxin/身体.prefab
+  artifactKey: Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/身体.prefab using Guid(df42c91aa5682d446a0ff58c2c426dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2854e14d0f565a5d549221f13debc971') in 0.010580 seconds 
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 9.036895 seconds.
+  path: Assets/liuxin/yuzhiti/子弹1.prefab
+  artifactKey: Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹1.prefab using Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d204463ab864c2a38608e02089cc28') in 0.008363 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.018181 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0884da7512a4fefcc4fb71d1be77d8e5') in 0.010244 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 4.927933 seconds.
+  path: Assets/liuxin/yuzhiti/子弹1.prefab
+  artifactKey: Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹1.prefab using Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaae3a91f1cc21207dacef28ada40a6') in 0.008608 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.024182 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39149c6873551303172c1db21b6065f3') in 0.009574 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 3.876443 seconds.
+  path: Assets/liuxin/yuzhiti/爆炸.prefab
+  artifactKey: Guid(3739155c6e437e340b4b12b037a39213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/爆炸.prefab using Guid(3739155c6e437e340b4b12b037a39213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaba64f62bb1d114eb5a42d89f8e0bf') in 0.008911 seconds 
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.019003 seconds.
+  path: Assets/liuxin/yuzhiti/子弹1.prefab
+  artifactKey: Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹1.prefab using Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd58b27021a4f252ef6fdf220f8b83b9') in 0.010088 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.013102 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7492d4a42483967428c7e22cca2641') in 0.015151 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/liuxin/yuzhiti/枪口3.prefab
+  artifactKey: Guid(21da6a795c382db4da042ac9caa9cef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口3.prefab using Guid(21da6a795c382db4da042ac9caa9cef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aab2f6c7f500b4b43901fbe404244bd') in 0.011707 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/liuxin/yuzhiti/枪口2.prefab
+  artifactKey: Guid(63daaea4ee0d7ee47b0f3ed81984d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口2.prefab using Guid(63daaea4ee0d7ee47b0f3ed81984d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6038e1289b0f9acc3aba82160e245cd') in 0.011550 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/liuxin/yuzhiti/子弹3.prefab
+  artifactKey: Guid(55de138623d58cc46a6b822f9ee201c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹3.prefab using Guid(55de138623d58cc46a6b822f9ee201c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0741aa2b8ea0ffee0ddbab0efdf839f4') in 0.009990 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 9.975488 seconds.
+  path: Assets/liuxin/yuzhiti/子弹1.prefab
+  artifactKey: Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹1.prefab using Guid(0cf95c2fc2d42054bbbca1eb5ad28000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c3fcea8cba22fd5140688d14efe003') in 0.011223 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/liuxin/yuzhiti/枪口3.prefab
+  artifactKey: Guid(21da6a795c382db4da042ac9caa9cef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口3.prefab using Guid(21da6a795c382db4da042ac9caa9cef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9570ed9357c73644455d7487e22e08') in 0.010445 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/liuxin/yuzhiti/枪口2.prefab
+  artifactKey: Guid(63daaea4ee0d7ee47b0f3ed81984d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口2.prefab using Guid(63daaea4ee0d7ee47b0f3ed81984d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1924786ba5c5061e65e4265742830793') in 0.014008 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 54.792094 seconds.
+  path: Assets/liuxin/yuzhiti/子弹2.prefab
+  artifactKey: Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹2.prefab using Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe81cae26cbbd189ef943d43a0a3b9d') in 0.010361 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3ba1f2db5bc7049c4fa23dc0af120a') in 0.010394 seconds 
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/liuxin/yuzhiti/爆炸.prefab
+  artifactKey: Guid(3739155c6e437e340b4b12b037a39213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/爆炸.prefab using Guid(3739155c6e437e340b4b12b037a39213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2707e63b3927c6ad00b47b23d36ed6ff') in 0.009069 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 1.417675 seconds.
+  path: Assets/liuxin/yuzhiti/子弹2.prefab
+  artifactKey: Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹2.prefab using Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd651d63b6246d4e278c7134c2555d032') in 0.007898 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/liuxin/yuzhiti/枪口3.prefab
+  artifactKey: Guid(21da6a795c382db4da042ac9caa9cef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口3.prefab using Guid(21da6a795c382db4da042ac9caa9cef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85bc73f0ba23e2f78c48e17d24bd8a9') in 0.008871 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.988319 seconds.
+  path: Assets/liuxin/yuzhiti/子弹2.prefab
+  artifactKey: Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹2.prefab using Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56162c27ff952d328f37534f40d81354') in 0.008020 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018816db5e0e19543268a2da2f288b4b') in 0.008412 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 17.171674 seconds.
+  path: Assets/liuxin/yuzhiti/子弹2.prefab
+  artifactKey: Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹2.prefab using Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff25ce670d124a6cb7a8081e6aea61f6') in 0.009959 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/liuxin/yuzhiti/枪口2.prefab
+  artifactKey: Guid(63daaea4ee0d7ee47b0f3ed81984d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口2.prefab using Guid(63daaea4ee0d7ee47b0f3ed81984d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a3f1663c73f91c567de8311932f413') in 0.010986 seconds 
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 2.443134 seconds.
+  path: Assets/liuxin/yuzhiti/子弹2.prefab
+  artifactKey: Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹2.prefab using Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acad2acee80bfa49cf17b07d7646ec7a') in 0.012600 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2d63f89de122970713cdfec8569a8a') in 0.011706 seconds 
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/liuxin/yuzhiti/爆炸.prefab
+  artifactKey: Guid(3739155c6e437e340b4b12b037a39213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/爆炸.prefab using Guid(3739155c6e437e340b4b12b037a39213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bfd48f7c8c3041536ec5e0f7e6fc43') in 0.009054 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 5.726317 seconds.
+  path: Assets/liuxin/yuzhiti/子弹2.prefab
+  artifactKey: Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹2.prefab using Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3218ce9d8d65d5eed1ff5de3429ecbcc') in 0.010687 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57aa01299a8b8d354c2c8e4998fb9a7') in 0.011617 seconds 
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 16.249193 seconds.
+  path: Assets/liuxin/yuzhiti/子弹2.prefab
+  artifactKey: Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹2.prefab using Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fddc48fed75ba574a232bcbd488dba') in 0.011616 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a7d3b9f8b14c316366317a4746f3d6') in 0.013564 seconds 
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 3.025867 seconds.
+  path: Assets/liuxin/yuzhiti/子弹2.prefab
+  artifactKey: Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/子弹2.prefab using Guid(1dffbe8feb771f14aba6d0ea439b8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaed817454a4566b4e635d530122e51') in 0.011250 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/liuxin/yuzhiti/枪口1.prefab
+  artifactKey: Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/liuxin/yuzhiti/枪口1.prefab using Guid(0cb6df22f79916a49935cf2f58877fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326cb7239dea5bfd45e36e084443b99b') in 0.012807 seconds 
+Number of asset objects unloaded after import = 46
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
